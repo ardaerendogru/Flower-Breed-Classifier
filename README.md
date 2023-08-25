@@ -6,12 +6,14 @@ This project is an image classifier that can identify 102 different breeds of fl
 ## Usage
 To use this image classifier, you will need to provide the path to the dataset using the data_directory argument. You can also specify the following optional arguments:
 
---save_dir: Path for saving directory.
---arch: Model architecture (vgg16, densenet121, or alexnet).
---learning_rate: Learning rate for optimizer.
---hidden_units: Number of hidden units for neural network.
---epochs: Number of epochs.
---gpu: Use GPU for training.
+```
+save_dir: Path for saving directory.
+arch: Model architecture (vgg16, densenet121, or alexnet).
+learning_rate: Learning rate for optimizer.
+hidden_units: Number of hidden units for neural network.
+epochs: Number of epochs.
+gpu: Use GPU for training.
+```
 
 Here is an example of how to use these arguments:
 ```
