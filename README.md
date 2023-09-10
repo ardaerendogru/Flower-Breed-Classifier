@@ -24,7 +24,7 @@ To run this project, you need to have python 3 installed on your system. You als
 
 You can install these packages using pip or conda.
 
-You also need to download the dataset from [here] and unzip it in your working directory.
+You also need to download the dataset from [here](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/) and unzip it in your working directory.
 
 ## Usage
 
